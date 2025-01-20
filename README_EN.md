@@ -1,7 +1,7 @@
 # YouTube to Text Transcription Tool
 
 
-[View Chinese Version](README.md)
+## [View Chinese Version](README.md)
 
 ## Overview
 This tool allows you to download audio from YouTube videos and transcribe them into text using OpenAI's Whisper model.

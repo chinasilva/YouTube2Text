@@ -1,7 +1,7 @@
 # YouTube 音频转录工具
 
 
-[View English Version](README_EN.md)
+## [View English Version](README_EN.md)
 
 ## 项目简介
 本工具可以将YouTube视频的音频下载并转录为文字，使用OpenAI的Whisper模型实现自动语音识别。
