@@ -47,6 +47,7 @@ https://www.youtube.com/watch?v=eemgH5ZleQw
 - 支持Cookies登录
 
 ## 文件结构
+```
 项目目录/
 ├── 视频标题/
 │ ├── 视频标题.mp3

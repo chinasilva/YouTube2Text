@@ -37,17 +37,19 @@ python convert.py
 https://www.youtube.com/watch?v=eemgH5ZleQw
 
 
+
 ## Features
-- Automatically creates folders named after video titles
-- Saves original audio files (MP3 format)
-- Generates transcription text in Markdown format
+- Automatically creates folder named after video title
+- Saves original audio file (MP3 format)
+- Generates transcription in Markdown format
 - Supports proxy settings
 - Supports cookies login
 
 ## File Structure
-Project Directory/
-├── Video Title/
-│ ├── Video Title.mp3
-│ └── Video Title.md
+```
+project_directory/
+├── video_title/
+│ ├── video_title.mp3
+│ └── video_title.md
 ├── cookies.txt
 └── ...
