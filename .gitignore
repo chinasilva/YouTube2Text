@@ -10,6 +10,7 @@ venv/
 cookies.txt
 cookies.json
 *.mp3
+tmp*
 
 # 忽略特定文件夹下的所有文件
 audio_files/*

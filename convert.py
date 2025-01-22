@@ -35,7 +35,7 @@ def download_youtube_audio(url):
         filename = ydl.prepare_filename(info_dict)  # 获取生成的文件名
         # 创建以视频标题命名的文件夹
         folder_name = info_dict['title']
-        os.makedirs(folder_name, exist_ok=True)
+        os.makedirs(os.path.join('result',folder_name), exist_ok=True)
         # 移动下载的文件到新文件夹
         new_path = os.path.join('result',folder_name, filename.rsplit('.', 1)[0] + '.mp3')
         os.rename(filename.rsplit('.', 1)[0] + '.mp3', new_path)
